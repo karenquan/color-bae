@@ -1,0 +1,18 @@
+@import "./main.scss";
+
+footer {
+  padding: 30px 0;
+  background-color: $slate;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+
+  a {
+    font-style: italic;
+    color: $accent;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+}

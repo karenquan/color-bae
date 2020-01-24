@@ -1,0 +1,30 @@
+@import "./main.scss";
+
+.color-block {
+  display: inline-block;
+  width: 100%;
+
+  .color-1 {
+    display: block;
+    height: 80px;
+  }
+
+  .color-2,
+  .color-3,
+  .color-4 {
+    height: 60px;
+    float: left;
+    width: 33.333333%;
+  }
+
+  .color-2 {
+    opacity: 0.8;
+  }
+  .color-3 {
+    opacity: 0.6;
+  }
+
+  .color-4 {
+    opacity: 0.4;
+  }
+}

@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+body {
+  font-family: $base-font;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  background-color: $white;
+  color: $slate;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+  margin: 0;
+  font-family: $header-font;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

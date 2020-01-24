@@ -1,0 +1,18 @@
+.cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.loader {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+}
