@@ -9,7 +9,6 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // test
 app.get("/api/test", (req, res) => {
-  console.log("ummmmmm");
   res.send({ data: "herro" });
 });
 
