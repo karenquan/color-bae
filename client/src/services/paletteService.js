@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const API_URL = process.env.REACT_APP_API_ENDPOINT + "/palette";
+const API_URL = "http://www.colourlovers.com/api/palette";
 
 const getPaletteById = id => {
   return $.ajax({

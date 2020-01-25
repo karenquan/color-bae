@@ -19,7 +19,7 @@ class Palette extends Component {
       .getPaletteById(id)
       .then(palette => {
         let p = palette[0];
-        console.log(p);
+        // console.log(p);
         this.setState({
           colors: p.colors,
           title: p.title

@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const API_URL = process.env.REACT_APP_API_ENDPOINT + "/palettes";
+const API_URL = "http://www.colourlovers.com/api/palettes";
 
 const getTopPalettes = () => {
   return $.ajax({
@@ -19,7 +19,6 @@ const getNewPalettes = () => {
 };
 
 const getPalettesByHex = hex => {
-  console.log(API_URL + "?format=json&hex=" + hex);
   return $.ajax({
     url: API_URL + "?format=json&hex=" + hex,
     jsonp: "jsonCallback",

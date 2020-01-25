@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const API_URL = process.env.REACT_APP_API_ENDPOINT + "/color";
+const API_URL = "http://www.colourlovers.com/api/color";
 
 const getColorById = id => {
   return $.ajax({

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../styles/palettes.scss";
 import PaletteStrip from "./PaletteStrip";
-import * as API from "../services/API";
 import * as palettesService from "../services/palettesService";
 
 class Palettes extends Component {

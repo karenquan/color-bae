@@ -1,7 +1,9 @@
-const getTest = async () => {
-  const response = await fetch("/api/test");
+const getTopPalettes = async () => {
+  console.log("got into top palettes");
+  const response = await fetch("/api/getTopPalettes");
 
   const body = await response.json();
+  console.log("get top palettes", body);
 
   if (response.status !== 200) {
     throw Error(body.message);
@@ -10,4 +12,4 @@ const getTest = async () => {
   return body;
 };
 
-export { getTest };
+export { getTopPalettes };
