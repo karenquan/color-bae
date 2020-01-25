@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-const API_URL = "http://www.colourlovers.com/api/colors";
+const API_URL = "https://www.colourlovers.com/api/colors";
 
 const getNewColors = () => {
   return $.ajax({
